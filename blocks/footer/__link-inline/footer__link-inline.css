@@ -1,0 +1,10 @@
+.footer__link-inline {
+ display: inline;
+}
+
+@media screen and (max-width: 675px) {
+    .footer__link-inline {
+        display: block;
+    }
+}
+

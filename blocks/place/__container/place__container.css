@@ -1,0 +1,25 @@
+.place__container {
+    max-width: 484px;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__container {
+        width: calc((100% - 32px)/2 + 8px);    
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__container {
+        width: calc((100% - 28px)/2 + 6px);    
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .place__container {
+        width: 100%;
+        max-width: 480px;
+        padding: 0 16px 0;
+        margin: 0 auto;
+    }
+}

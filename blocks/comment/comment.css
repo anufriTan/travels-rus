@@ -1,0 +1,19 @@
+@import url('./__image/comment__image.css');
+@import url('./__author/comment__author.css');
+@import url('./__text/comment__text.css');
+
+.comment {
+    width: calc((100% - 38px)/3);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+}
+
+@media screen and (max-width: 768px) {
+    .comment {
+        width: 100%;    
+        align-items: center;
+    }  
+}
+

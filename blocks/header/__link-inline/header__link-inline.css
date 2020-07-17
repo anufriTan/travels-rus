@@ -1,0 +1,8 @@
+.header__link-inline {
+    display: inline;
+}
+
+.header__link-inline:hover {
+    opacity: .7;
+    transition: opacity .4s linear;
+}

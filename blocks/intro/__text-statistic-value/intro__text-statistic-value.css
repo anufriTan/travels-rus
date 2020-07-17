@@ -1,0 +1,12 @@
+.intro__text-statistic-value {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;    
+}
+
+@media screen and (max-width: 425px) {
+    .intro__text-statistic-value {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}
